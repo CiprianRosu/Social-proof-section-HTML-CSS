@@ -204,3 +204,73 @@ body{
     color: white;
     line-height: 1.4;
 }
+
+@media screen and (max-width: 600px){
+    .wrapper{
+        
+        width: 425px;
+        height: 1050px;
+         margin-top: 50px; 
+        margin-bottom: 50px;   
+        align-items: center;
+    }
+  .top {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0%;
+  }
+  .text{
+    width: 320px;
+    /* text-align: center; */
+    margin: 0 auto;
+  }
+  .stars{
+    margin: 35px auto;
+    
+  }
+  .star1 {
+    margin-left: 0%;
+    flex-direction: column;
+    width: 320px;
+    height: 75px;
+    margin:0 auto;
+
+  }
+.stele{
+    margin-bottom: -10px;
+}
+
+  .star2{
+    margin-left: 0%;
+    flex-direction: column;
+    width: 320px;
+    height: 75px;
+    margin:0 auto;
+  }
+  .star3{
+    flex-direction: column;
+    width: 320px;
+    height: 75px;
+    margin:0 auto;
+
+  }
+  .cards{
+    flex-direction: column;
+    margin: 35px auto;
+    width: 320px;
+    padding-top: 0%;
+   
+  }
+  .card1{
+    width: 320px;
+    margin-bottom: 15px;
+  }
+  .card2{
+    width: 320px;
+    margin-bottom: 15px;
+  }
+  .card3{
+    width: 320px;
+    margin-bottom: 25px;
+  }
+    }
